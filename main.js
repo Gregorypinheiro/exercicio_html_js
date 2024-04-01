@@ -1,7 +1,12 @@
 const form = document.getElementById('form-numeros');
 
-/*form.addEventListener('submit' , function(e) {
+/*não recarrega a pagina 
+form.addEventListener('submit' , function(e) {
     e.preventDefault();
 })*/
 
 console.log(form);
+
+function validaValor(valorMaior) {
+    const nome
+}
