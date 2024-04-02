@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-        <div class="container">
+    <div class="container">
+        <form id="form-numerico">
             <h1>Nubank</h1>
             <h2>Depósito</h2>
-    <form id="form-numeros">
-        <input type="number" id="deposito-um" required placeholder="Depósito 1" />
-        <input type="number" id="deposito-dois" required placeholder="Depósito 2" />
-        <button id="botao" type="submit">Depositar</button>
-    </form>
-        </div>
+            <h3>O 1ºdepósito tem que ser maior que o 2º depósito</h3>
+            <input id="campo-a" type="number" required placeholder="campo A">
+            <input id="campo-b" type="number" required placeholder="campo B">
+            <button type="submit">Depositar</button>
+        </form>
+    <p class="mensagen-falso"></p>
+    <p class="mensagen-verdade"></p>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

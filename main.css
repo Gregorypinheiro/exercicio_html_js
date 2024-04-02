@@ -44,3 +44,23 @@ h1 {
     color: darkviolet;
     margin-bottom: 16px; 
 }
+
+h3 {
+    margin-top: 16px;
+}
+
+.mensagen-verdade{
+    background-color: rgb(72, 240, 6);
+    color: white;
+}
+.mensagen-falso{
+    background-color: red;
+    color: wheat;
+    
+}
+
+input.error{
+    color:  red;
+    border-color: red;
+    outline-color: red;
+}
