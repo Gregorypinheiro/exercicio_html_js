@@ -50,12 +50,25 @@ h3 {
 }
 
 .mensagen-verdade{
-    background-color: rgb(72, 240, 6);
-    color: white;
+    background-color: rgb(19, 161, 79);
+    color: Black;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    width: 94%;
+
 }
 .mensagen-falso{
     background-color: red;
     color: wheat;
+    font-size: 42px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    margin-bottom: 8px;
+    width: 50%;
+    resize: none;
     
 }
 

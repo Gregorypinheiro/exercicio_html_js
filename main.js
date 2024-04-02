@@ -2,19 +2,19 @@ const form = document.getElementById('form-numerico');
 
 form.addEventListener('submit',function(e){
     e.preventDefault();
-    const campoAinput = document.getElementById('campo-a');
-    const campoBinput = document.getElementById('campo-b');
+    const campoAinput = document.getElementById('deposito-um');
+    const campoBinput = document.getElementById('deposito-dois');
 
     const campoA = parseFloat(campoAinput.value);
     const campoB = parseFloat(campoBinput.value);
 
     const mensagemFalso = `Tente outra vez`;
-    const mensagemVerdade = `Esta correto o número ${campoB} é maior que o número ${campoA}`;
+    const mensagemVerdade = `Depósito realizado com Sucesso! 1º depósito R$ ${campoA} é maior que o 2º depósito R$ ${campoB}`;
 
-    if(campoA >= campoB){
+    if(campoB >= campoA){
         const containerFalso = document.querySelector('.mensagen-falso');
         containerFalso.innerHTML = mensagemFalso;
-        container mensagemFalso.style.display = 'block';
+        containerFalso.style.display = 'block';
         document.querySelector('.mensagen-verdade').style.display = 'none';
     }
     else{
