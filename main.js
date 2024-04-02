@@ -9,9 +9,9 @@ form.addEventListener('submit',function(e){
     const campoB = parseFloat(campoBinput.value);
 
     const mensagemFalso = `Tente outra vez`;
-    const mensagemVerdade = `Depósito realizado com Sucesso! 1º depósito R$ ${campoA} é maior que o 2º depósito R$ ${campoB}`;
+    const mensagemVerdade = `Depósito realizado com Sucesso! 2º depósito R$ ${campoB} é maior que o 1º depósito R$ ${campoA}`;
 
-    if(campoB >= campoA){
+    if(campoA >= campoB){
         const containerFalso = document.querySelector('.mensagen-falso');
         containerFalso.innerHTML = mensagemFalso;
         containerFalso.style.display = 'block';
